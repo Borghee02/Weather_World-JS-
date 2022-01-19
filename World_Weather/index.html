@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Meteo by Borghee02</title>
+</head>
+<body class="body">
+    <div class="container_titolo">
+        <div class="titolo"><h4>METEO IN TEMPO REALE by Borghee02</h4></div>
+    </div>
+
+    <div class="input">
+        <input type="text" id="inputcittà" placeholder="Cerca una città..."> 
+        <button type="submit" id="esegui"><i class="fa fa-search"></i></button>
+    </div>
+   
+    <div class="container_meteo">
+        <div class="meteo_info">
+            <img id="icona" class="icona" src="">
+            <h1 id="nome_città"></h1>  
+            <h4 id="temperatura_città"></h4>         
+            <h3 id="descrizione_città"></h3>
+           
+            <div class="info">
+                <h4 id="temperatura_percepita"></h4>
+                <h4 id="temperatura_max"></h4>
+                <h4 id="temperatura_min"></h4>
+                <h4 id="umidità_città"></h4>
+                <h4 id="vento_città"></h4>
+            </div>       
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
